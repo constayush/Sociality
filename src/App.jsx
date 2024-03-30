@@ -1,9 +1,13 @@
 import React from 'react'
-import Navbar from './components/ui/Navbar'
+
+import Sidebar from './components/ui/Sidebar'
+import Home from './components/Home'
+
 function App() {
-  return (
-    <Navbar/>
-  )
+  return (<>
+    <Sidebar/>
+    <Home/>
+ </> )
 }
 
 export default App
